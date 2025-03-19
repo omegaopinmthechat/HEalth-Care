@@ -2,6 +2,7 @@
 A comprehensive web application designed to enhance healthcare services by offering features such as appointment scheduling, an AI-driven chatbot, and emergency assistance.​<br>
 
 Table of Contents <br>
+<br>
 Introduction <br>
 Features <br>
 Appointment Scheduling <br>
@@ -10,23 +11,30 @@ Emergency SOS <br>
 Installation <br>
 Usage <br>
 Contributing <br>
-License <br>
 Acknowledgements <br>
+Contributors <br>
+<br>
 Introduction <br>
 The Health-Care project aims to bridge the gap between patients and healthcare providers by leveraging technology to offer seamless services. Developed as part of a college project at VIT-AP University, this application integrates multiple functionalities to provide users with a holistic healthcare experience.​ <br>
+<br>
 
 Features <br>
+<br>
 Appointment Scheduling <br>
 Allows users to book, view, and manage their medical appointments with ease. The system ensures that scheduling is efficient and user-friendly.​ <br>
+<br>
 
 AI Chatbot <br>
 An intelligent chatbot designed to answer common health-related queries, provide information about medical services, and assist users in navigating the application.​ <br>
+<br>
 
 Emergency SOS <br>
 Provides users with an emergency assistance feature that can quickly connect them to the nearest healthcare facilities or alert emergency contacts in critical situations.​ <br>
+<br>
 
 Installation <br>
 To set up the Health-Care project locally, follow these steps: <br>
+<br>
 
 Clone the repository: <br>
 
@@ -82,7 +90,7 @@ Submit a pull request detailing your changes.​ <br>
 Acknowledgements <br>
 Developed as part of a project at VIT-AP University.​<br>
 
-Contributer <br>
+Contributers: <br>
 
 Saurav Singh | 24BCE7816 <br>
 Shubham Kumar | 24BCC7048 <br>
