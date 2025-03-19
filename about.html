@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <style>
+        :root {
+            --navitembakcolor1: #007bff;
+            --navitembakcolor2: #ffffff;
+            --navitemhovercolor: #007bff;
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            background-color: #fafafa;
+            box-sizing: border-box;
+            scrollbar-width: none;
+            overflow-x: hidden;
+
+        }
+
+        nav {
+            /* border: 1px solid black; */
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px 0 100px;
+            flex-wrap: wrap;
+        }
+
+        nav>div>ul {
+            margin-right: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+
+        .navli {
+            text-decoration: none;
+            background-color: var(--navitembakcolor1);
+            border: 1px solid var(--navitembakcolor1);
+            color: white;
+            margin: 10px;
+            padding: 5px 10px;
+            border-radius: 50px;
+            cursor: pointer;
+            display: inline-block;
+            z-index: 10;
+            position: relative;
+
+            &:hover {
+                background-color: var(--navitembakcolor2);
+                color: var(--navitembakcolor1);
+                border: 1px solid var(--navitembakcolor1);
+                position: relative;
+                bottom: 1px;
+            }
+        }
+
+
+        .navitem {
+            color: #3c4858;
+            text-decoration: none;
+            color: inherit;
+            margin: 10px;
+            /* border: 1px solid rgb(57, 106, 174); */
+        }
+
+        .container_outer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            width: 100%;
+        }
+
+        .container {
+
+            width: 90vw;
+            display: flex;
+            color: #3c4858;
+            height: 80vh;
+            margin-top: 50px;
+            margin-left: 100px;
+            /* border: 1px solid black; */
+            /* align-items: center; */
+            /* justify-content: center; */
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            bottom: 50px;
+            font-size: 2rem;
+            display: flex;
+            /* border: 1px solid red; */
+            width: 90%;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+        .aboutp{
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        
+        
+
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo">
+                <img src="logo.png" height="70px" alt="">
+            </div>
+            <div>
+
+                <ul>
+                    <li class="navli"><a href="/index.html" class="navitem">Home</a></li>
+                    <li class="navli"><a href="/about.html" class="navitem">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </div>
+    <div class="container_outer">
+        <div class="container">
+            <div class="text">
+                <div class="content">
+                    <h1>About</h1>
+                    <p class="aboutp">V-Care is an initiative to help students with all there health needs with ease</p>
+                    <br><br>
+                    <h4>Created by:-</h4>
+                    <p class="aboutp"> <span></span>Saurav Singh | 24BCE7816</p>
+                    <p class="aboutp"> Shubham Kumar | 24BCC7048</p>
+                    <p class="aboutp"> Amar Sankar Maitra | 24BCC7026</p>
+                    <p class="aboutp"> Shikhar Dwivedi
+                        | 24BCE7596</p>
+
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>

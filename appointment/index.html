@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #2196F3, #1565C0);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            background: white;
+            color: black;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container h2, .container h3 {
+            margin-bottom: 15px;
+        }
+        input, select, button {
+            margin: 10px 0;
+            padding: 12px;
+            width: 100%;
+            border: 1px solid #1565C0;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        input, select {
+            background: #E3F2FD;
+            color: #0D47A1;
+        }
+        button {
+            background: #1E88E5;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            border: none;
+        }
+        button:hover {
+            background: #1565C0;
+        }
+        .appointment-list {
+            text-align: left;
+            padding: 0;
+            width: 100%;
+        }
+        .appointment-list li {
+            list-style: none;
+            background: #E3F2FD;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            color: #0D47A1;
+        }
+        .home-button {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Book an Appointment</h2>
+        <input type="text" id="patientName" placeholder="Enter your name" required>
+        <input type="text" id="patientId" placeholder="Registration ID" required>
+        <select id="doctorSelect">
+            <option value="Doctor 1">Doctor 1</option>
+            <option value="Doctor 2">Doctor 2</option>
+            <option value="Doctor 3">Doctor 3</option>
+        </select>
+        <input type="date" id="appointmentDate" required>
+        <button onclick="bookAppointment()">Book Appointment</button>
+        <h3>Appointments</h3>
+        <ul id="appointmentList" class="appointment-list"></ul>
+        <a href="/index.html" class="home-button">Home</a>
+    </div>
+    <script src="/appointment/index.js"></script>
+</body>
+</html>
